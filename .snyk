@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@snyk/nodejs-runtime-agent > needle > debug':
+        patched: '2020-02-25T19:00:42.270Z'
+    - tap > tap-mocha-reporter > debug:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:http-signature:20150122':
+    - tap > codecov.io > request > http-signature:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:mime:20170907':
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:minimatch:20160620':
+    - tap > nyc > glob > minimatch:
+        patched: '2020-02-25T19:00:42.270Z'
+    - tap > nyc > rimraf > glob > minimatch:
+        patched: '2020-02-25T19:00:42.270Z'
+    - tap > nyc > spawn-wrap > rimraf > glob > minimatch:
+        patched: '2020-02-25T19:00:42.270Z'
+    - tap > nyc > istanbul > fileset > minimatch:
+        patched: '2020-02-25T19:00:42.270Z'
+    - tap > nyc > istanbul > fileset > glob > minimatch:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:ms:20170412':
+    - '@snyk/nodejs-runtime-agent > needle > debug > ms':
+        patched: '2020-02-25T19:00:42.270Z'
+    - tap > tap-mocha-reporter > debug > ms:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:ms:20151024':
+    - humanize-ms > ms:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:request:20160119':
+    - tap > codecov.io > request:
+        patched: '2020-02-25T19:00:42.270Z'
+  'npm:tunnel-agent:20170305':
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2020-02-25T19:00:42.270Z'
